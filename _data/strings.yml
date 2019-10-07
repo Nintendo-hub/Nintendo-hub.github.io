@@ -1,0 +1,140 @@
+# 字符串
+# =======================================================================================
+# 该文件包含主题的所有软编码字符串.
+# 如果要更改某些短语的措辞，可以在此处进行编辑,
+# 例如 也许您更喜欢“正在提取...”而不是“正在加载...”，等等。
+#
+# 您也可以使用它来将主题 "翻译" 成不同的语言,
+# 但是请注意,这可能无法在所有情况下都有效,
+# 尤其是对于与英语有明显区别的语言.
+
+# Free version
+# ---------------------------------------------------------------------------------------
+home:                  主页
+pages:                 页面
+posts:                 文章
+about:                 关于我
+related_posts:         相关文章
+other_projects:        其他项目
+comments:              Comments
+jump_to:               跳转到
+navigation:            导航
+social:                Social
+links:                 链接
+pagination:            分页
+newer:                 较新的文章
+older:                 较早的文章
+forward:               前进
+back:                  返回
+permalink:             Permalink
+permalink_icon:        icon-link
+templates:             Templates (for web app)
+present:               present
+
+loading:               加载中…
+redirecting:           重定向…
+
+continue_reading:      >
+  继续阅读 <!--post_title-->
+
+cookies_banner:
+  text:                >
+    本网站使用cookie.
+  okay:                好的吧!
+
+not_found:
+  title:               '404: 网页未找到'
+  message:             |
+    抱歉, 我们放错了该URL或它指向了不存在的内容.
+    <!--home_link--> 尝试再次找到它.
+  home_link:           回到主页
+
+error:
+  title:               错误❌
+  message:             |
+    抱歉, 加载时发生错误 <!--link-->.
+
+# 分隔符
+# ---------------------------------------------------------------------------------------
+colon:                 ':'
+separator:             '|'
+category_start:        'in '
+category_spearator:    ' / '
+tag_start:             'on '
+tag_separator:         ', '
+from_to_separator:     '–'
+
+
+# Date formats
+# ---------------------------------------------------------------------------------------
+date_formats:
+  post:                '%d %b %Y'
+  related_post:        '%d %b %Y'
+  list_group_by:       '%Y'
+  list_entry:          '%d %b'
+  project:             '%Y'
+  projects_group_by:   '%Y'
+  resume:              '%b %Y'
+
+
+# PRO Version
+# ---------------------------------------------------------------------------------------
+# 如果您不拥有Hydejack PRO版本，则修改它们将无效。
+
+tinyletter:
+  title:               Newsletter
+  label:               Email
+  placeholder:         mail@example.com
+  button:              Subscribe
+  message:             |
+    Subscribe to my newsletter.
+    0
+    <!--form-->
+
+    Open `_data/strings.yml` to edit this text.
+    {:.faded}
+
+welcome:
+  more_projects:       See <!--projects_title--> for more
+  more_posts:          See <!--posts_title--> for more
+
+resume:
+  location:            Location
+  location_separator:  ', '
+  email:               Email
+  phone:               Phone
+  website:             Website
+  work:                Experience
+  work_title:          <!--position--> at <!--company-->
+  highlights:          Highlights
+  volunteer:           Volunteer
+  volunteer_title:     <!--position--> at <!--organization-->
+  education:           Education
+  education_title:     <!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->
+  courses:             Courses
+  awards:              Awards
+  awards_title:        <!--title--> from <!--awarder-->
+  publications:        Publications
+  publications_title:  <!--name--> by <!--publisher-->
+  references:          References
+  languages:           Languages
+  fluency:             Fluency
+  skills:              Skills
+  level:               Level
+  interests:           Interests
+  keywords:            Keywords
+  icons:
+    fallback:          icon-link
+    location:          icon-location
+    email:             icon-mail2
+    phone:             icon-phone
+    website:           icon-home3
+    work:              icon-briefcase
+    volunteer:         icon-earth
+    education:         icon-library
+    awards:            icon-trophy
+    publications:      icon-book
+    references:        icon-quotes-right
+    languages:         icon-bubbles
+    skills:            icon-wrench
+    interests:         icon-heart
