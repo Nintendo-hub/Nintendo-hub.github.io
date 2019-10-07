@@ -30,7 +30,8 @@ description:           >
 
 # 侧栏的简短说明.
 tagline:               >
-  "像是老酒馆角落慵懒的猫经历了太多而疲惫".
+  "生命不息、搞机不止~".
+  **Nintendo-Hub** 这里有你想要的所有工具和教程.
   `左滑或鼠标滚轮进入`.
 
 # 您博客的关键字列表
@@ -43,20 +44,20 @@ logo:                  /assets/icons/icon.png
 
 # 该作者应与 `_data/authors.yml` 中的第一个条目的作者相同.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Releed
+  email:               releed@outlook.com
   # 由 `jekyll-seo-tag` 使用:
   # twitter:             <username>
 
 # 将链接添加到侧边栏.
 menu:
   - title:             总览
-    url:               /hydejack/
-  - title:             项目
-    url:               /hyde/
-  - title:             文档
-    url:               /docs/
-  - title:             关于我
+    url:               /things-All/
+  - title:             Switch
+    url:               /things-Switch/
+  - title:             Wii U
+    url:               /things-WiiU/
+  - title:             关于本网站
     url:               /about/
 
 # 将链接添加到页脚.
