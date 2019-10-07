@@ -26,7 +26,7 @@ newer:                 较新的文章
 older:                 较早的文章
 forward:               前进
 back:                  返回
-permalink:             Permalink
+permalink:             永久链接
 permalink_icon:        icon-link
 templates:             Templates (for web app)
 present:               present

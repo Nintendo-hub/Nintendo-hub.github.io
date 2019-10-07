@@ -20,7 +20,7 @@ baseurl:               ''
 lang:                  zh
 
 # 您博客的标题.  在侧边栏和浏览器标签中显示的.
-title:                 Releed
+title:                 Nintendo Hub
 
 # 用于元描述标签的页面的简短描述(约150个字符).
 # 可以使用markdown, 但不能超过一个段落(由 `>` 强制执行)
