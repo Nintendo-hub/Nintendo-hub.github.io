@@ -1,1 +1,355 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+# 配置
+# ========================================================================================
+
+# 重要信息: 设置您的网站的URL.
+# 在GitHub Pages上托管时设置为https：// <username> .github.io
+# (除非您使用自定义域).
+url:                   https://nintendo-hub.github.io/
+
+# 重要信息: 设置网站的"基本网址".
+# 当您的站点位于子目录中时, 设置为 /<目录名称>
+# (带有/, 没有< >).
+# 否则 '' 留空.
+# 对于GitHub项目站点,这通常是项目的名称,
+# 例如: `/hydejack`.
+baseurl:               ''
+
+# 以2个字母的代码表示的内容语言, 例如: en, de.
+# 您也可以提供一个位置, 例如: en-us, de_AT,zh-chs.
+lang:                  zh
+
+# 您博客的标题.  在侧边栏和浏览器标签中显示的.
+title:                 Releed
+
+# 用于元描述标签的页面的简短描述(约150个字符).
+# 可以使用markdown, 但不能超过一个段落(由 `>` 强制执行)
+description:           >
+  "Best Jekyll Theme by a Mile".
+  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+
+# 侧栏的简短说明.
+tagline:               >
+  "像是老酒馆角落慵懒的猫经历了太多而疲惫".
+  `左滑或鼠标滚轮进入`.
+
+# 您博客的关键字列表
+keywords:              []
+
+# 您网站的(方形) logo.
+# 如果提供, 它将显示在侧栏的顶部.
+# `jekyll-seo-tag` 插件也使用了它.
+logo:                  /assets/icons/icon.png
+
+# 该作者应与 `_data/authors.yml` 中的第一个条目的作者相同.
+author:
+  name:                <firstname> <lastname>
+  email:               <mail@domain.tld>
+  # 由 `jekyll-seo-tag` 使用:
+  # twitter:             <username>
+
+# 将链接添加到侧边栏.
+menu:
+  - title:             总览
+    url:               /hydejack/
+  - title:             项目
+    url:               /hyde/
+  - title:             文档
+    url:               /docs/
+  - title:             关于我
+    url:               /about/
+
+# 将链接添加到页脚.
+# 通常,您需要链接到Cookie或隐私权政策(如果适用), 等等..
+# legal:
+#   - title:             Impress
+#     url:               /impress/
+#   - title:             Cookies Policy
+#     url:               /cookies-policy/
+
+# 该文本将显示在每个页面页脚的 `<small>` 标签中.
+copyright:             © 2019. All rights reserved.
+
+# 固定链接的格式
+permalink:             /:categories/:year-:month-:day-:title/
+
+# 分页配置 (由 `blog` 布局页使用)
+paginate:              10
+paginate_path:         /page-:num/
+
+
+# 自定义
+# ========================================================================================
+
+# 网站的侧边栏图片和主题颜色.
+accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          rgb(79,177,186)
+
+# 这用于 `theme-color` meta标记,
+# 它会在某些浏览器中更改浏览器UI的背景色.
+# 默认为 `accent_color`.
+theme_color:           rgb(25,55,71)
+
+# 要从Google字体中获取哪些字体的字符串编码.
+# 请参见: <https://hydejack.com/docs/configuration/>
+google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
+
+# 文字字体. 需要一个有效的CSS字体系列值字符串.
+# 要更改字体粗细, 请参见 _sass/variables.scss
+font:                  Noto Sans, Helvetica, Arial, sans-serif
+
+# 用于标题的字体. 需要一个有效的CSS字体系列值字符串.
+# 要更改字体粗细, 请参见 _sass/variables.scss
+font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+
+defaults:
+  - scope:
+      path:            hyde
+    values:
+      accent_color:    rgb(38,139,210)
+      accent_image:
+        background:    rgb(32,32,32)
+        overlay:       false
+
+  # `jekyll-seo-tag` 将集合输出标记为 `BlogPosting`,
+  # 但我们希望它们成为 `WebPage` :
+  - scope:
+      type:            projects
+    values:
+      seo:
+        type:          WebPage
+  - scope:
+      type:            featured_categories
+    values:
+      seo:
+        type:          WebPage
+  - scope:
+      type:            featured_tags
+    values:
+      seo:
+        type:          WebPage
+
+
+# 第三方集成
+# ----------------------------------------------------------------------------------------
+
+# 设置您的Google Analytics ID 以接收 `pageview` 事件.
+# 要从页面中删除 Google Anaylics , 请删除以下行.
+# google_analytics:      UA-XXXXXXXX-X
+
+# 设置 disqus 短名称将使页面前面的注释部分带有 `comments: true` .
+# disqus:                <disqus_shortname>
+
+# 设置 tinyletter 用户名将启用新闻订阅框.
+# tinyletter:            <tinyletter_username>
+
+# Hydejack设置
+# ----------------------------------------------------------------------------------------
+# 这些设置特定于 Hydejack.
+
+hydejack:
+  # 配置博客文章中补充内容的顺序
+  post_addons:         [about, newsletter, related, random]
+
+  # 在项目页面上配置补充内容的顺序
+  project_addons:      [about, newsletter, other]
+
+  # 如果您不使用Google字体, 请设置为 `true`.
+  no_google_fonts:     false
+
+  # 如果不想显示外部链接的图标,则设置为 `true` .
+  no_mark_external:    true
+
+  # 如果第三方插件无法处理动态加载的页面,则设置为 `true` .
+  no_push_state:       false
+
+  # Set to `true` if you want to disable the drawer
+  no_drawer:           false
+
+  # Set to `true` to prevent usage of `hy-img` (lazy-loading images).
+  no_img:              false
+
+  # Set to `true` if you do not want parts of the css inlined in <head/>
+  # This will increase site build speed dramatically!
+  no_inline_css:       false
+
+  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
+  # This will increase site build speed!
+  no_page_style:       false
+
+  # Code blocks and tables "break" the layout by spanning the full available width.
+  # Set this to true if you want them to be the same width as other content.
+  no_break_layout:     false
+
+  # Set to `true` if you do not want to expose your resume and projects
+  # in machine-readable formats.
+  no_structured_data:  false
+
+  # You can set this to `true` if you don't want to set the `theme-color` meta tag,
+  # This only affects the meta tag, not the color specified in the app manifest.
+  no_theme_color:      false
+
+  # Set to `true` when building with the `--lsi` option
+  use_lsi:             false
+
+  # When using Google Analytics, set to `true` to display a cookie notice banner.
+  # When enabled, no user-related data will be stored until the user gives consent.
+  cookies_banner:      false
+
+  # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
+  advertise:           false
+
+  # Note that dark mode only works in the PRO version of Hydejack.
+  dark_mode:
+    # Set to `true` to always use the dark theme.
+    always:            false
+
+    # Set to `true` to use the dark theme based on visitors' local time.
+    dynamic:           true
+    sunrise:           6
+    sunset:            18
+
+    # Set to `true` to allow visitors to switch between light and dark mode.
+    icon:              true
+
+  # ⚡️ DANGER ZONE ⚡️
+  # ----------------
+  # This is an _experimental_ feature.
+  # Only use if you know what Service Workers are and how they can impact your site!
+  offline:
+    enabled:           false
+    cache_version:     1
+
+
+# Collections
+# ========================================================================================
+
+collections:
+  featured_categories:
+    permalink:         /:name/
+    output:            true
+
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
+
+  projects:
+    permalink:         /projects/:path/
+    output:            true
+
+
+# 文件包含/排除
+# ========================================================================================
+# 排除
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - "*.gemspec"
+  - _js
+  - _plugins
+  - .sass-cache
+# 包含
+include:
+  - LICENSE.md
+  - .well-known
+
+
+# 插件
+# ========================================================================================
+
+plugins:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-replace-img
+
+# 主题
+# ---------------------------------------------------------------------------------------
+
+# theme: jekyll-theme-hydejack
+# remote_theme: qwtel/hydejack@gem
+
+# SEO Tag
+# ---------------------------------------------------------------------------------------
+
+# Where you proof that you own this site (used by jekyll-seo-tag)
+# google_site_verification: <verification-id>
+# -- or --
+# webmaster_verifications:
+#   google:              <verification-id>
+#   bing:                <verification-id>
+#   alexa:               <verification-id>
+#   yandex:              <verification-id>
+
+# Used for Twitter cards
+# twitter:
+#   username:            <shortname>
+
+# Used for Facebook open graph
+# facebook:
+#   app_id:              <id>
+#   publisher:           <id>
+#   admins:              <id>
+
+# Used on index and about sites
+# social:
+#   name:                <firstname> <lastname>
+#   links:
+#     - https://twitter.com/<username>
+#     - https://github.com/<username>
+
+
+# 其他插件
+# ---------------------------------------------------------------------------------------
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+  with_frontmatter:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+  
+replace_img:
+  re_img:              <img\s*(?<attrs>.*?)\s*/>
+  re_ignore:           (re|data)-ignore
+  replacement:         |
+    <hy-img root-margin="512px" %{attrs}>
+      <noscript><img data-ignore %{attrs}/></noscript>
+      <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+    </hy-img>
+
+kramdown:
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
+  math_engine:         mathjax
+  math_engine_opts:
+    preview:           true
+    preview_as_code:   true
+
+compress_html:
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
