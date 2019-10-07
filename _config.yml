@@ -147,7 +147,7 @@ defaults:
 # ----------------------------------------------------------------------------------------
 # 这些设置特定于 Hydejack.
 
-hydejack:
+things-All:
   # 配置博客文章中补充内容的顺序
   post_addons:         [about, newsletter, related, random]
 

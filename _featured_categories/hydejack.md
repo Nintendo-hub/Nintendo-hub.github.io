@@ -1,7 +1,7 @@
 ---
 layout: list
 title: 总览
-slug: hydejack
+slug: things-All
 menu: true
 order: 1
 description: >
