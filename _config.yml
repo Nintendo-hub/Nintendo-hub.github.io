@@ -51,11 +51,11 @@ author:
 # 将链接添加到侧边栏.
 menu:
   - title:             总览
-    url:               /things-All/
+    url:               /hydejack/
   - title:             Switch
-    url:               /things-Switch/
+    url:               /hyde/
   - title:             Wii U
-    url:               /things-WiiU/
+    url:               /docs/
   - title:             关于本网站
     url:               /about/
 
@@ -147,7 +147,7 @@ defaults:
 # ----------------------------------------------------------------------------------------
 # 这些设置特定于 Hydejack.
 
-things-All:
+hydejack:
   # 配置博客文章中补充内容的顺序
   post_addons:         [about, newsletter, related, random]
 
