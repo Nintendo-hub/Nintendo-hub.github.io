@@ -1,42 +1,50 @@
-# http://www.gnu.org/software/automake
+# Ignore docs files
+_gh_pages
+_site*
+_drafts
+.ruby-version
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
 
-# http://www.gnu.org/software/autoconf
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
 
-/autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# Komodo
+*.komodoproject
+.komodotools
 
-# https://www.gnu.org/software/libtool/
+# grunt-html-validation
+validation-status.json
+validation-report.json
 
-/ltmain.sh
+# Folders to ignore
+node_modules
+vendor/bundle
+.bundle
+.sass-cache
+.jekyll-metadata
+*.gem
+_zip
+/stats.json
 
-# http://www.gnu.org/software/texinfo
-
-/texinfo.tex
-
-# http://www.gnu.org/software/m4/
-
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
-autom4te.cache
+#<removed>
