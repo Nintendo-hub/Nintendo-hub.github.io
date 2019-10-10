@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    
+    <title>Categoria: switch | libnx Wiki</title>
+    
+    
+        <meta name="keywords" content="libnx Wiki">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Switch开发库API索引网站">
+<meta property="og:type" content="website">
+<meta property="og:title" content="libnx Wiki">
+<meta property="og:url" content="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/page/9/index.html">
+<meta property="og:site_name" content="libnx Wiki">
+<meta property="og:description" content="Switch开发库API索引网站">
+<meta property="og:locale" content="zh">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="libnx Wiki">
+<meta name="twitter:description" content="Switch开发库API索引网站">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="libnx Wiki" type="application/atom+xml">
+    
+
+    
+        <link rel="icon" href="/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+</head>
+</html>
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">libnx Wiki</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">首页</a>
+                
+                    <a class="main-nav-link" href="/archives">归档</a>
+                
+                    <a class="main-nav-link" href="/categories">分类</a>
+                
+                    <a class="main-nav-link" href="/tags">标签</a>
+                
+                    <a class="main-nav-link" href="/about">关于</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="https://www.gravatar.com/avatar/819419ff47686c2124943d0ee220b8a9" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Entradas',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">首页</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">关于</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="https://www.gravatar.com/avatar/819419ff47686c2124943d0ee220b8a9?s=128" />
+            <h2 id="name">Releed</h2>
+            <h3 id="title">Game Developer &amp; Programmer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>HongKong, China</span>
+            <a id="follow" target="_blank" href="https://github.com/releed/">SEGUIR</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                147
+                <span>Entradas</span>
+            </div>
+            <div class="article-info-block">
+                0
+                <span>Etiqueta</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/Nintendo-hub/libnx-Wiki" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/atom.xml" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>Categorias</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            arpa
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/arpa/inet-h/">inet.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            net
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/net/dpf-h/">dpf.h</a></li>  <li class="file"><a href="/2019/10/09/net/dlt-h/">dlt.h</a></li>  <li class="file"><a href="/2019/10/09/net/if-h/">if.h</a></li>  <li class="file"><a href="/2019/10/09/net/if-arp-h/">if_arp.h</a></li>  <li class="file"><a href="/2019/10/09/net/if-dl-h/">if_dl.h</a></li>  <li class="file"><a href="/2019/10/09/net/if-media-h/">if_media.h</a></li>  <li class="file"><a href="/2019/10/09/net/route-h/">route.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            netinet
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/netinet/in-h/">in.h</a></li>  <li class="file"><a href="/2019/10/09/netinet/tcp-h/">tcp.h</a></li>  <li class="file"><a href="/2019/10/09/netinet/udp-h/">udp.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            switch
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            applets
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/applets/album-la-h/">album_la.h</a></li>  <li class="file"><a href="/2019/10/09/switch/applets/error-h/">error.h</a></li>  <li class="file"><a href="/2019/10/09/switch/applets/libapplet-h/">libapplet.h</a></li>  <li class="file"><a href="/2019/10/09/switch/applets/pctlauth-h/">pctlauth.h</a></li>  <li class="file"><a href="/2019/10/09/switch/applets/swkbd-h/">swkbd.h</a></li>  <li class="file"><a href="/2019/10/09/switch/applets/web-h/">web.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            arm
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/arm/atomics-h/">atomics.h</a></li>  <li class="file"><a href="/2019/10/09/switch/arm/cache-h/">cache.h</a></li>  <li class="file"><a href="/2019/10/09/switch/arm/counter-h/">counter.h</a></li>  <li class="file"><a href="/2019/10/09/switch/arm/thread-context-h/">thread_context.h</a></li>  <li class="file"><a href="/2019/10/09/switch/arm/tls-h/">tls.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            audio
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/audio/audio-h/">audio.h</a></li>  <li class="file"><a href="/2019/10/09/switch/audio/driver-h/">driver.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            crypto
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/crypto/aes-h/">aes.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/aes-cbc-h/">aes_cbc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/aes-ctr-h/">aes_ctr.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/aes-xts-h/">aes_xts.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/cmac-h/">cmac.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/crc-h/">crc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/hmac-h/">hmac.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/sha1-h/">sha1.h</a></li>  <li class="file"><a href="/2019/10/09/switch/crypto/sha256-h/">sha256.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            display
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/display/binder-h/">binder.h</a></li>  <li class="file"><a href="/2019/10/09/switch/display/buffer-producer-h/">buffer_producer.h</a></li>  <li class="file"><a href="/2019/10/09/switch/display/framebuffer-h/">framebuffer.h</a></li>  <li class="file"><a href="/2019/10/09/switch/display/native-window-h/">native_window.h</a></li>  <li class="file"><a href="/2019/10/09/switch/display/parcel-h/">parcel.h</a></li>  <li class="file"><a href="/2019/10/09/switch/display/types-h/">types.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            kernel
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/kernel/barrier-h/">barrier.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/condvar-h/">condvar.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/detect-h/">detect.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/event-h/">event.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/ipc-h/">ipc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/jit-h/">jit.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/mutex-h/">mutex.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/random-h/">random.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/rwlock-h/">rwlock.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/wait-h/">wait.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/semaphore-h/">semaphore.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/svc-h/">svc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/thread-h/">thread.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/tmem-h/">tmem.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/virtmem-h/">virtmem.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/uevent-h/">uevent.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/shmem-h/">shmem.h</a></li>  <li class="file"><a href="/2019/10/09/switch/kernel/utimer-h/">utimer.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            nvidia
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/nvidia/channel-h/">channel.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/gpu-channel-h/">gpu_channel.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/map-h/">map.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/address-space-h/">address_space.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/fence-h/">fence.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/gpu-h/">gpu.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/ioctl-h/">ioctl.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/types-h/">types.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nvidia/graphic-buffer-h/">graphic_buffer.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            runtime
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            devices
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/runtime/devices/console-h/">console.h</a></li>  <li class="file"><a href="/2019/10/09/switch/runtime/devices/romfs-dev-h/">romfs_dev.h</a></li>  <li class="file"><a href="/2019/10/09/switch/runtime/devices/socket-h/">socket.h</a></li>  <li class="file"><a href="/2019/10/09/switch/runtime/devices/usb-comms-h/">usb_comms.h</a></li>  <li class="file"><a href="/2019/10/09/switch/runtime/devices/fs-dev-h/">fs_dev.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            util
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/runtime/util/utf-h/">utf.h</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2019/10/09/switch/runtime/env-h/">env.h</a></li>  <li class="file"><a href="/2019/10/09/switch/runtime/hosversion-h/">hosversion.h</a></li>  <li class="file"><a href="/2019/10/09/switch/runtime/nxlink-h/">nxlink.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            services
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/switch/services/csrng-h/">csrng.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/auddev-h/">auddev.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/capssc-h/">capssc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/audren-h/">audren.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/caps-h/">caps.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/bsd-h/">bsd.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/fatal-h/">fatal.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/acc-h/">acc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/bpc-h/">bpc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/capssu-h/">capssu.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/apm-h/">apm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/audout-h/">audout.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/audin-h/">audin.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/applet-h/">applet.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/fspr-h/">fspr.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/fs-h/">fs.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/clkrst-h/">clkrst.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/gpio-h/">gpio.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/capsu-h/">capsu.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/grc-h/">grc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/fsldr-h/">fsldr.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/hid-h/">hid.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/hwopus-h/">hwopus.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/hiddbg-h/">hiddbg.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/lbl-h/">lbl.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/ldr-h/">ldr.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/vi-h/">vi.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/wlaninf-h/">wlaninf.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/set-h/">set.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/lr-h/">lr.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/pdm-h/">pdm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/pcv-h/">pcv.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/pctl-h/">pctl.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/sfdnsres-h/">sfdnsres.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/irs-h/">irs.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/smm-h/">smm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/ro-h/">ro.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/psc-h/">psc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/ncm-h/">ncm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/usbds-h/">usbds.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/nfc-h/">nfc.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/i2c-h/">i2c.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/usb-h/">usb.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/psm-h/">psm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/spl-h/">spl.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/time-h/">time.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/spsm-h/">spsm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/nv-h/">nv.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/pm-h/">pm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/ns-h/">ns.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/sm-h/">sm.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/usbhs-h/">usbhs.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/hidsys-h/">hidsys.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/pl-h/">pl.h</a></li>  <li class="file"><a href="/2019/10/09/switch/services/nifm-h/">nifm.h</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2019/10/09/switch/nacp-h/">nacp.h</a></li>  <li class="file"><a href="/2019/10/09/switch/nro-h/">nro.h</a></li>  <li class="file"><a href="/2019/10/09/switch/result-h/">result.h</a></li>  <li class="file"><a href="/2019/10/09/switch/types-h/">types.h</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            sys
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2019/10/09/sys/iovec-h/">_iovec.h</a></li>  <li class="file"><a href="/2019/10/09/sys/sockaddr-storage-h/">_sockaddr_storage.h</a></li>  <li class="file"><a href="/2019/10/09/sys/filio-h/">filio.h</a></li>  <li class="file"><a href="/2019/10/09/sys/ioccom-h/">ioccom.h</a></li>  <li class="file"><a href="/2019/10/09/sys/ioctl-h/">ioctl.h</a></li>  <li class="file"><a href="/2019/10/09/sys/poll-h-1/">poll.h</a></li>  <li class="file"><a href="/2019/10/09/sys/socket-h/">socket.h</a></li>  <li class="file"><a href="/2019/10/09/sys/sockio-h/">sockio.h</a></li>  <li class="file"><a href="/2019/10/09/sys/sysctl-h/">sysctl.h</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2019/10/09/netdb-h/">netdb.h</a></li>  <li class="file"><a href="/2019/10/09/poll-h/">poll.h</a></li>  <li class="file"><a href="/2019/10/09/switch-h/">switch.h</a></li>  <li class="file"><a href="/8888/12/31/readme-h/">总览</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+        
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main">
+<div class="timeline timeline-wrap">
+    <div class="timeline-row timeline-row-major">
+        <span class="node"><i class="fa fa-folder"></i></span>
+        <h1 class="title">switch</h1>
+    </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/svc-h/">svc.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/svc-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/mutex-h/">mutex.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/mutex-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/jit-h/">jit.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/jit-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/ipc-h/">ipc.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/ipc-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/event-h/">event.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/event-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/detect-h/">detect.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/detect-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/wait-h/">wait.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/wait-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/shmem-h/">shmem.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/shmem-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/virtmem-h/">virtmem.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/virtmem-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2019/10/09/switch/kernel/uevent-h/">uevent.h</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/10/09/switch/kernel/uevent-h/">
+            <time datetime="2019-10-09T13:32:51.000Z" itemprop="datePublished">2019-10-09</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/switch/">switch</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/switch/kernel/">kernel</a>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+    <nav id="page-nav">
+        <a class="extend prev" rel="prev" href="/categories/switch/page/8/">&laquo; Anterior</a><a class="page-number" href="/categories/switch/">1</a><span class="space">&hellip;</span><a class="page-number" href="/categories/switch/page/7/">7</a><a class="page-number" href="/categories/switch/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/categories/switch/page/10/">10</a><a class="page-number" href="/categories/switch/page/11/">11</a><span class="space">&hellip;</span><a class="page-number" href="/categories/switch/page/13/">13</a><a class="extend next" rel="next" href="/categories/switch/page/10/">Siguiente  &raquo;</a>
+    </nav>
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            Releed &copy; 2019 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

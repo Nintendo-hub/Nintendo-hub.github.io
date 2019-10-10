@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>libnx Wiki</title>
+  
+  <subtitle>Switch开发库API索引网站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://nintendo-hub.github.io/libnx-Wiki/"/>
+  <updated>2019-10-09T13:59:31.755Z</updated>
+  <id>https://nintendo-hub.github.io/libnx-Wiki/</id>
+  
+  <author>
+    <name>Releed</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>总览</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/8888/12/31/readme-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/8888/12/31/readme-h/</id>
+    <published>8888-12-31T15:58:58.000Z</published>
+    <updated>2019-10-09T13:59:31.755Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="从这里可以看到目前已经整理和为整理的API"><a href="#从这里可以看到目前已经整理和为整理的API" class="headerlink" title="从这里可以看到目前已经整理和为整理的API"></a>从这里可以看到目前已经整理和为整理的API</h2><h4 id="加粗的为已完成"><a href="#加粗的为已完成" class="headerlink" title="加粗的为已完成"></a>加粗的为已完成</h4><p>│  netdb.h<br>│  poll.h<br>│  switch.h<br>│<br>├─arpa<br>│      inet.h<br>│<br>├─net<br>│      bpf.h<br>│      dlt.h<br>│      if.h<br>│      if_arp.h<br>│      if_dl.h<br>│      if_media.h<br>│      route.h<br>│<br>├─netinet<br>│      in.h<br>│      tcp.h<br>│      udp.h<br>│<br>├─switch<br>│  │  nacp.h<br>│  │  nro.h<br>│  │  result.h<br>│  │  types.h<br>│  │<br>│  ├─applets<br>│  │      album_la.h<br>│  │      error.h<br>│  │      libapplet.h<br>│  │      pctlauth.h<br>│  │      swkbd.h<br>│  │      web.h<br>│  │<br>│  ├─arm<br>│  │      atomics.h<br>│  │      cache.h<br>│  │      counter.h<br>│  │      thread_context.h<br>│  │      tls.h<br>│  │<br>│  ├─audio<br>│  │      audio.h<br>│  │      driver.h<br>│  │<br>│  ├─crypto<br>│  │      aes.h<br>│  │      aes_cbc.h<br>│  │      aes_ctr.h<br>│  │      aes_xts.h<br>│  │      cmac.h<br>│  │      crc.h<br>│  │      hmac.h<br>│  │      sha1.h<br>│  │      sha256.h<br>│  │<br>│  ├─display<br>│  │      binder.h<br>│  │      buffer_producer.h<br>│  │      framebuffer.h<br>│  │      native_window.h<br>│  │      parcel.h<br>│  │      types.h<br>│  │<br>│  ├─kernel<br>│  │      barrier.h<br>│  │      condvar.h<br>│  │      detect.h<br>│  │      event.h<br>│  │      ipc.h<br>│  │      jit.h<br>│  │      mutex.h<br>│  │      random.h<br>│  │      rwlock.h<br>│  │      semaphore.h<br>│  │      shmem.h<br>│  │      svc.h<br>│  │      thread.h<br>│  │      tmem.h<br>│  │      uevent.h<br>│  │      utimer.h<br>│  │      virtmem.h<br>│  │      wait.h<br>│  │<br>│  ├─nvidia<br>│  │      address_space.h<br>│  │      channel.h<br>│  │      fence.h<br>│  │      gpu.h<br>│  │      gpu_channel.h<br>│  │      graphic_buffer.h<br>│  │      ioctl.h<br>│  │      map.h<br>│  │      types.h<br>│  │<br>│  ├─runtime<br>│  │  │  env.h<br>│  │  │  hosversion.h<br>│  │  │  nxlink.h<br>│  │  │<br>│  │  ├─devices<br>│  │  │      console.h<br>│  │  │      fs_dev.h<br>│  │  │      romfs_dev.h<br>│  │  │      socket.h<br>│  │  │      usb_comms.h<br>│  │  │<br>│  │  └─util<br>│  │          utf.h<br>│  │<br>│  └─services<br>│          acc.h<br>│          apm.h<br>│          applet.h<br>│          auddev.h<br>│          audin.h<br>│          audout.h<br>│          audren.h<br>│          bpc.h<br>│          bsd.h<br>│          caps.h<br>│          capssc.h<br>│          capssu.h<br>│          capsu.h<br>│          clkrst.h<br>│          csrng.h<br>│          fatal.h<br>│          fs.h<br>│          fsldr.h<br>│          fspr.h<br>│          gpio.h<br>│          grc.h<br>│          hid.h<br>│          hiddbg.h<br>│          hidsys.h<br>│          hwopus.h<br>│          i2c.h<br>│          irs.h<br>│          lbl.h<br>│          ldr.h<br>│          lr.h<br>│          ncm.h<br>│          nfc.h<br>│          nifm.h<br>│          ns.h<br>│          nv.h<br>│          pctl.h<br>│          pcv.h<br>│          pdm.h<br>│          pl.h<br>│          pm.h<br>│          psc.h<br>│          psm.h<br>│          ro.h<br>│          set.h<br>│          sfdnsres.h<br>│          sm.h<br>│          smm.h<br>│          spl.h<br>│          spsm.h<br>│          time.h<br>│          usb.h<br>│          usbds.h<br>│          usbhs.h<br>│          vi.h<br>│          wlaninf.h<br>│<br>└─sys<br>        filio.h<br>        ioccom.h<br>        ioctl.h<br>        poll.h<br>        socket.h<br>        sockio.h<br>        sysctl.h<br>        _iovec.h<br>        _sockaddr_storage.h</p><!-- ## 参考资料> - []()> - []() -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;从这里可以看到目前已经整理和为整理的API&quot;&gt;&lt;a href=&quot;#从这里可以看到目前已经整理和为整理的API&quot; class=&quot;headerlink&quot; title=&quot;从这里可以看到目前已经整理和为整理的API&quot;&gt;&lt;/a&gt;从这里可以看到目前已经整理和为整理的API&lt;/
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>switch.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch-h/</id>
+    <published>2019-10-09T13:53:26.000Z</published>
+    <updated>2019-10-09T13:53:26.628Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>poll.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/poll-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/poll-h/</id>
+    <published>2019-10-09T13:53:20.000Z</published>
+    <updated>2019-10-09T13:53:20.179Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>netdb.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/netdb-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/netdb-h/</id>
+    <published>2019-10-09T13:53:02.000Z</published>
+    <updated>2019-10-09T13:53:02.382Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>pl.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/pl-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/pl-h/</id>
+    <published>2019-10-09T13:51:25.000Z</published>
+    <updated>2019-10-09T13:51:25.214Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nifm.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/nifm-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/nifm-h/</id>
+    <published>2019-10-09T13:51:25.000Z</published>
+    <updated>2019-10-09T13:51:25.340Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sm.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/sm-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/sm-h/</id>
+    <published>2019-10-09T13:51:24.000Z</published>
+    <updated>2019-10-09T13:51:24.555Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hidsys.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/hidsys-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/hidsys-h/</id>
+    <published>2019-10-09T13:51:24.000Z</published>
+    <updated>2019-10-09T13:51:24.484Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>usbhs.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/usbhs-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/usbhs-h/</id>
+    <published>2019-10-09T13:51:24.000Z</published>
+    <updated>2019-10-09T13:51:24.582Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>pm.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/pm-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/pm-h/</id>
+    <published>2019-10-09T13:51:24.000Z</published>
+    <updated>2019-10-09T13:51:24.753Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ns.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/ns-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/ns-h/</id>
+    <published>2019-10-09T13:51:24.000Z</published>
+    <updated>2019-10-09T13:51:24.589Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>spsm.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/spsm-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/spsm-h/</id>
+    <published>2019-10-09T13:51:21.000Z</published>
+    <updated>2019-10-09T13:51:21.682Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nv.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/nv-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/nv-h/</id>
+    <published>2019-10-09T13:51:21.000Z</published>
+    <updated>2019-10-09T13:51:21.453Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>usb.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/usb-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/usb-h/</id>
+    <published>2019-10-09T13:51:20.000Z</published>
+    <updated>2019-10-09T13:51:20.414Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>psm.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/psm-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/psm-h/</id>
+    <published>2019-10-09T13:51:20.000Z</published>
+    <updated>2019-10-09T13:51:20.794Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>spl.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/spl-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/spl-h/</id>
+    <published>2019-10-09T13:51:20.000Z</published>
+    <updated>2019-10-09T13:51:20.864Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>i2c.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/i2c-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/i2c-h/</id>
+    <published>2019-10-09T13:51:20.000Z</published>
+    <updated>2019-10-09T13:51:20.669Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ncm.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/ncm-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/ncm-h/</id>
+    <published>2019-10-09T13:51:20.000Z</published>
+    <updated>2019-10-09T13:51:20.878Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>time.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/time-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/time-h/</id>
+    <published>2019-10-09T13:51:20.000Z</published>
+    <updated>2019-10-09T13:51:20.884Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>usbds.h</title>
+    <link href="https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/usbds-h/"/>
+    <id>https://nintendo-hub.github.io/libnx-Wiki/2019/10/09/switch/services/usbds-h/</id>
+    <published>2019-10-09T13:51:20.000Z</published>
+    <updated>2019-10-09T13:51:20.822Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/u
+      
+    
+    </summary>
+    
+      <category term="switch" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/"/>
+    
+      <category term="services" scheme="https://nintendo-hub.github.io/libnx-Wiki/categories/switch/services/"/>
+    
+    
+  </entry>
+  
+</feed>
