@@ -478,7 +478,7 @@ hydejack:
     sunrise: 6
     sunset:  18
     icon:    true
-    always:  false
+    always:  true
 ```
 
 Setting `dynamic`, will enable dark mode based on the client's local time (unlike location-based sunset calculations, this approach does not require a permission form the user). You can adjust `sunrise` and `sunset` to change when to show the light/dark theme.
