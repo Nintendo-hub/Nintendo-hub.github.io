@@ -8,7 +8,7 @@
 # 但是请注意,这可能无法在所有情况下都有效,
 # 尤其是对于与英语有明显区别的语言.
 
-# Free version
+# PRO version
 # ---------------------------------------------------------------------------------------
 home:                  主页
 pages:                 页面
@@ -30,7 +30,7 @@ permalink:             永久链接
 permalink_icon:        icon-link
 templates:             Templates (for web app)
 present:               present
-
+dark:                  夜间模式
 loading:               加载中…
 redirecting:           重定向…
 
