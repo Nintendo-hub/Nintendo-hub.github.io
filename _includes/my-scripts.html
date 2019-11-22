@@ -5,7 +5,14 @@ CloudFlare will inject this on every page, but due to Hydejack's push state appr
 it will only run on the initial page.
 The snippet below will run the code on every `hy-push-state-load` event instead.
 -->
+<!-- 
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.3/lib/darkmode-js.min.js"></script>
+  <script>
+    new Darkmode().showWidget();
+  </script> 
+-->
 <script>
+  new Darkmode().showWidget();
   document.getElementsByTagName('hy-push-state')[0].addEventListener('hy-push-state-load', function (e) {
     function e(e){
       (console.error?console.error:console.log).call(console,e)

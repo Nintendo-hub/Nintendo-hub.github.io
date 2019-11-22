@@ -80,7 +80,7 @@ author2:
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
     Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
+  picture:           #https://placehold.it/128x128
   twitter:           <username>
   github:            <username>
   accent_color:      '#268bd2'

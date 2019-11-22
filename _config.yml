@@ -201,7 +201,7 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            true
+    always:            false
 
     # Set to `true` to use the dark theme based on visitors' local time.
     dynamic:           true
@@ -277,7 +277,7 @@ plugins:
 # 主题
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack-pro
+theme: #jekyll-theme-hydejack-free
 # remote_theme: qwtel/hydejack@gem
 
 # SEO Tag

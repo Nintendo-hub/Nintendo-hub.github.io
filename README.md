@@ -137,7 +137,7 @@ This table below shows what's included in each version:
 | | [**Download**][kit] <br/>-- or --<br/> [![Deploy to Netlify][dtn]][nfy] | [**Buy PRO** --- $59][buy] |
 
 
-
+1.16.1
 
 [^1]: You MAY open an issue on GitHub, but no response and/or fix is guaranteed.
       You understand that using Jekyll requires technical know-how and is not comparable to Wordpress in terms of ease of use. Please use the free version to confirm that Hydejack works for you. For details, see the [PRO] license.

@@ -1,6 +1,29 @@
 <!--[if gt IE 10]><!---->
 {% unless page.redirect %}
   <script nomodule>{% include scripts/nomodule.min.js %}</script>
+
+  <script type="module" src="{{ "/assets/js/darkmode-js.min.js" | relative_url }}"></script>
+  <script>
+    
+    // var options = {
+    // bottom: '64px', // default: '32px'
+    // right: '32', // default: '32px'
+    // left: 'unsetpx', // default: 'unset'
+    // time: '1s', // default: '0.3s'
+    // mixColor: '#f00', // default: '#fff'
+    // backgroundColor: '#f00',  // default: '#fff'
+    // buttonColorDark: '#2d3539',  // default: '#100f2c'
+    // buttonColorLight: '#f00', // default: '#fff'
+    // saveInCookies: true, // default: true,
+    // label: '🌓', // default: ''
+    // autoMatchOsTheme: true // default: true
+    // }
+
+    // const darkmode = new Darkmode(options);
+    // darkmode.showWidget();
+
+  </script>
+
   <script type="module" src="{{ "/assets/js/hydejack-8.5.2.js" | relative_url }}"></script>
   <script nomodule src="{{ "/assets/js/hydejack-legacy-8.5.2.js" | relative_url }}" defer></script>
   {% include my-scripts.html %}
