@@ -8,24 +8,24 @@ author1:
   # 在每个页面的底部和 `about` 布局页的顶部使用已启用Markdown
   # 可以使用多个段落(由 `|` 开启)
   about:             |
-    此文章来源于一个像素风格爱好者，轻微晕3D，游戏开发者.
+    此文章来源于一个像素风格爱好者🎆、游戏开发者🎮、主机战士🤔.
 
-    Open `_data/authors.yml` to edit this text.
+    更多文章可以在[Nintendo hub][website]网站
+    -- 或者 --
+    [微信公众号]中查看
+    ![800x400](https://placehold.it/800x400 "Large example image")
 
-    [Download Free][kit]
-    -- or --
-    [Buy PRO][buy]
+    [website]: https://nintendo-hub.github.io
 
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
-    [buy]: https://app.simplegoods.co/i/NATYVLYT
+#别忘了更改下面的作者信息
 
   # 这张照片将用于 关于页 部分
   picture:
-    path:            https://raw.githubusercontent.com/Releed/releed.github.io/master/_data/3.jpg
+    path:            https://placehold.it/128x128
     # srcset 是可选的, 可用于为视网膜显示器提供更高的分辨率版本
     srcset:
-      1x:            https://raw.githubusercontent.com/Releed/releed.github.io/master/_data/3.jpg
-      2x:            https://raw.githubusercontent.com/Releed/releed.github.io/master/_data/3.jpg
+      1x:            https://placehold.it/128x128
+      2x:            https://placehold.it/256x256
 
   # 侧边栏中的社交媒体图标
   # Comment/uncommet to show/hide
@@ -34,6 +34,7 @@ author1:
     # twitter:         <username>
     github:          Releed
     email:           releed@outlook.com
+    wechat:           
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -72,17 +73,21 @@ author1:
 
 # 另一位作者 (可选)
 author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Releed
+  email:             releed@outlook.com
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    此文章来源于一个像素风格爱好者🎆、游戏开发者🎮、主机战士🤔.
 
-    Open `_data/authors.yml` to edit this text.
-  picture:           #https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+    更多文章可以在[Nintendo hub][website]网站
+    -- 或者 --
+    [微信公众号]中查看
+    ![800x400](https://placehold.it/800x400 "Large example image")
+
+    [website]: https://nintendo-hub.github.io
+
+  picture:           https://placehold.it/128x128
+  #twitter:           <username>
+  github:            releed
   accent_color:      '#268bd2'
   accent_image:
     background:      '#202020'

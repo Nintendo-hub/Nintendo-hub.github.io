@@ -13,10 +13,10 @@
 home:                  主页
 pages:                 页面
 posts:                 文章
-about:                 关于我
+about:                 关于作者
 related_posts:         相关文章
 other_projects:        其他项目
-comments:              Comments
+comments:              评论
 jump_to:               跳转到
 navigation:            导航
 social:                Social
@@ -28,9 +28,9 @@ forward:               前进
 back:                  返回
 permalink:             永久链接
 permalink_icon:        icon-link
-templates:             Templates (for web app)
+templates:             模板 (对于Web App)
 present:               present
-dark:                  Dark Mod
+dark:                  黑暗模式
 loading:               加载中…
 redirecting:           重定向…
 

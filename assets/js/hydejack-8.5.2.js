@@ -12,25 +12,29 @@
  * Powered by Hydejack v8.5.2 <https://hydejack.com/>
  */
 
+//-----以下是网页黑暗模式的代码，但是颜色显示不正确，暂时注释，不启用
+// var options = {
 
-var options = {
-    bottom: '64px', // default: '32px'
-    right: '32', // default: '32px'
-    left: 'unsetpx', // default: 'unset'
-    time: '0.3s', // default: '0.3s'
-    mixColor: '#f00', // default: '#fff'
-    backgroundColor: '#fff',  // default: '#fff'
-    buttonColorDark: '#2d3539',  // default: '#100f2c'
-    buttonColorLight: '#fff', // default: '#fff'
-    saveInCookies: true, // default: true,
-    label: '🌓', // default: ''
-    autoMatchOsTheme: true // default: true
-    }
+//     bottom: '64px', // default: '32px'
+//     right: '32', // default: '32px'
+//     left: 'unsetpx', // default: 'unset'
+//     time: '0.3s', // default: '0.3s'
 
-    new Darkmode().showWidget(options);
+//     mixColor: '#22282B', // 开启黑暗模式后的颜色
+//     backgroundColor: '#ffffff',  // 网页默认背景色-未开启黑暗模式的颜色（一般为白色）
+
+//     buttonColorDark: '#100f2c',  // default: #2d3539-暗色-图标默认背景色
+//     buttonColorLight: '#FFE222', // default: #FFE222-黄色-黑暗模式图标色
+
+//     saveInCookies: true, // default: true,
+//     label: '🌓', // default: ''
+//     autoMatchOsTheme: true // default: true
+//     }
+
+//     new Darkmode().showWidget(options);
     
-    const darkmode = new Darkmode(options);
-    darkmode.showWidget();
+//     const darkmode = new Darkmode(options);
+//     darkmode.showWidget();
 
 
 

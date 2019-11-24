@@ -2,13 +2,13 @@
 image: /assets/img/blog/hydejack-8.png
 ---
 
-# 关于我
+# 声明
 
 宠辱不惊，闲看庭前花开花落。去留无意，漫随天外云卷云舒。
 {:.lead}
 
 ![Screenshot](assets/img/blog/hydejack-8.png){:.lead srcset="/assets/img/blog/hydejack-8.png 1920w, /assets/img/blog/hydejack-8@0,5x.png 960w, /assets/img/blog/hydejack-8@0,25x.png 480w" data-width="1920" data-height="1080"}
-Hydejack's cover page on a variety of screens.
+Nintendo-hub是私人网站,.
 {:.figure}
 
 **Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.

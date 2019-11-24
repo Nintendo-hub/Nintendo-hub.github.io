@@ -1,4 +1,9 @@
 # This file contains meta data for various social media sites
+# 该文件包含各种社交媒体网站的元数据
+
+wechat:
+  name: 微信
+  icon: icon-bubbles
 email:
   name: Email
   icon: icon-mail
