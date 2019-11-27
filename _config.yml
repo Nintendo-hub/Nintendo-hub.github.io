@@ -58,6 +58,8 @@ menu:
     url:               /hyde/
   - title:             Switch研究
     url:               /docs/
+  - title:             塞尔达系列
+    url:               /botw/
   - title:             声明
     url:               /about/
 #-------------------------------------

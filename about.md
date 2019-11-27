@@ -4,17 +4,20 @@ image: /assets/img/blog/hydejack-8.png
 
 # 声明
 
-宠辱不惊，闲看庭前花开花落。去留无意，漫随天外云卷云舒。
+宠辱不惊，闲看庭前花开花落。<br />去留无意，漫随天外云卷云舒。
 {:.lead}
 
-![Screenshot](assets/img/blog/hydejack-8.png){:.lead srcset="/assets/img/blog/hydejack-8.png 1920w, /assets/img/blog/hydejack-8@0,5x.png 960w, /assets/img/blog/hydejack-8@0,25x.png 480w" data-width="1920" data-height="1080"}
-Nintendo-hub是私人网站,.
+<!-- ![Screenshot](assets/img/blog/hydejack-8.png){:.lead srcset="/assets/img/blog/hydejack-8.png 1920w, /assets/img/blog/hydejack-8@0,5x.png 960w, /assets/img/blog/hydejack-8@0,25x.png 480w" data-width="1920" data-height="1080"} -->
+
+![Screenshot](assets/img/blog/hydejack-8.png){:.lead srcset="/assets/img/blog/switch_logo.gif 1920w, /assets/img/blog/switch_logo.gif 960w, /assets/img/blog/switch_logo.gif 480w" data-width="1920" data-height="1080"}
+Nintendo-hub是私人网站.
 {:.figure}
 
-**Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
-
-> Your presence on the web — A [blog], a [portfolio], and a [resume].
+**Nintendo hub** 是 [Releed] 建立的*私人*网站。主要记录平时对游戏和游戏开发的心得体会。<br />
+> 部分文章可能基于或借鉴国内外前辈的基础上深入分析破解，如你是原作者，不愿让他人引用，请告之，我将立即撤换。
 {:.lead}
+[Releed]: https://www.github.com/releed
+
 
 There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade.
 
@@ -37,18 +40,6 @@ There are two versions of **Hydejack**: The base version is free, while features
 | Price                  | Free           | $59      |
 | | [**Download**][kit] <br/>-- or --<br/> [![Deploy to Netlify][dtn]{:data-ignore=""}][nfy]{:.no-hover.no-mark} | [**Buy PRO** --- $59][buy]{:.btn.btn-primary.btn-lg.heading} |
 {:.stretch-table.dl-table}
-
-
-## A Free Blogging Theme
-**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
-
-<!--posts-->
-
-
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
-
-<!--projects-->
 
 
 ## A Printable Resume

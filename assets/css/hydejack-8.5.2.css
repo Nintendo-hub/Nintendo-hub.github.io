@@ -1,3 +1,4 @@
 ---
 ---
 {% capture include_to_scssify %}{% include styles/style.scss %}{% endcapture %}{% include header.txt %}{{ include_to_scssify | scssify }}
+/* 不能格式化，否则网站显示不正常 */

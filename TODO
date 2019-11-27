@@ -1,13 +1,17 @@
 https://images2.alphacoders.com/927/927337.png
 
 
-删除hydejekyll页脚信息
+fix-删除hydejekyll页脚信息
+fix-开启impress、cookies
 翻译_config.yml中的文本
 更改侧栏链接地址
-
+为有switch logo 图片的网页添加声音
+重新设计网站logo
 
 
 免责声明 - 在about。md中更改
+
+
 
 本网站使用的图片、相关引用项目(源码)除原创外均来源于网络，如果侵犯了您的权益，请告之，我们将立即撤换。
 未经常本网站和作者共同同意，其他任何机构不得以任何形式侵犯其作品著作权，包括但不限于：擅自复制、链接、非法使用或转载，或以任何方式建立作品镜像。
@@ -23,4 +27,3 @@ icon更改为国内常见的图标
     https://gitalk.github.io/
 
 已经做的
-开启impress、cookies

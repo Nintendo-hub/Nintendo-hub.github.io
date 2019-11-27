@@ -1,0 +1,15 @@
+本地运行
+bundle exec jekyll serve
+
+
+
+
+
+博客帮助指南：
+想要添加侧边栏的栏目需要在features_categories 和 featured_tags中创建目录并配置设置
+
+更改侧栏标题文字大小：
+_sass/pooleparty/__inline__/_type.scss
+和
+_sass/pooleparty/_type.pre.scss
+搜索 font-size:2rem;
